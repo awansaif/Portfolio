@@ -3,7 +3,7 @@ let theme = localStorage.getItem("theme");
 if (theme == null) {
   setTheme("purple");
 } else {
-  setTheme(theme);
+  setTheme("purple");
 }
 
 let themeDots = document.getElementsByClassName("theme-dot");
